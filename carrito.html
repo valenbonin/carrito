@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito - Mercado Obregón</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda Virtual</h1>
+        <nav>
+            <ul id="ulmenu">
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Carrito</h2>
+        <table>
+            <thead>
+                <tr>
+                <th>Imagen</th>
+                <th>Cantidad</th>
+                <th>Producto</th>
+                <th>Precio</th>
+                <th>Total</th>
+                <th>Editar</th>
+                </tr>
+            </thead>
+            <tbody id="tablacarrito">
+            </tbody>
+        </table>
+    </main>
+    <!-- Mostrar el total -->
+<div id="total">Total: $0.00</div>
+
+<!-- Icono de carrito (puede ser un contador en un icono de carrito) -->
+<div id="iconoCarrito">0</div>
+
+<!-- Botón de finalizar compra -->
+<button id="finalizar-compra" style="display:none;" onclick="finalizarCompra()">Finalizar Compra</button>
+
+    <footer>
+    </footer>
+    <script src="carrito.js"></script>
+</body>
+</html>
